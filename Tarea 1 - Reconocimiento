@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF - 8">
+    <title> Tarea 1 - Reconocimiento </title>
+</head>
+<style>
+    * {
+        text-align: center;
+        background-color: darkblue;
+        color: aqua;
+    }
+</style>
+
+<body>
+    <h1> Bienvenido a mi pagina web </h1>
+    <h2> Proyecto de sitio web año 2023 - periodo 16-01
+    <hr>
+    <h3> Nombre: Santiago Nuñez Viasus </h3>
+    <h3> Programa: Tecnología en producción de audio </h3>
+    <h3> Fecha de creación: 09/02/2023</h3>
+    <hr>
+    <p> Mis datos personales: <br>
+        Skype: Jusanvia <br>
+        Celular: 3102256518 <br>
+        Email: jusanvia@gmail.com <br>
+    </p>
+</body>
+
+</html>
