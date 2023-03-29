@@ -1,0 +1,15 @@
+
+*{
+    margin: 20px;
+    padding: 30px;
+}
+#TiposdeselectoresCSS{
+    
+    color: darkblue;
+    background-color: #19A7CE;
+}
+
+.centradito{
+    text-align: center;
+    background-color: #D8D8D8;
+}

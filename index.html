@@ -5,131 +5,72 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fase 2</title>
-    <style>
-        body{
-            text-align: center;
-        }
-        header{
-            display: flex;
-            justify-content: space-around;
-            background-color: brown;
-        }
-    </style>
+    <title>Fase 3</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
-<body>
+<body class="contenedor">
     <header>
-        <h1>Selectores CSS</h1>
-        <nav>
-            <ul>
-                <li><a href="#Tipos de selectores">Inicio</a></li>
-                <li><a href="#Selectores CSS">Tema seleccionado</a></li>
-                <li><a href="#mockup">mockup</a></li>
-                <li><a href="#Acercade">Acerca de</a></li>
-            </ul>
-        </nav>
+        <h1> Selectores CSS </h1>
     </header>
-    
-    <section>
-    <!-- Seccion del tema de selectores CSS     -->
-    <section id="Tipos de sectores"></section>
+    <nav>
+        <ul>
+            <li> <a href="#">¿Que son y para que sirven?</a></li>
+            <li> <a href="#">Tipos de selectores</a></li>
+            <li> <a href="#">Audio-Resumen de los selectores CSS</a></li>
+        </ul>
+    </nav>
+    <aside>
 
-        <h3> ¿Que son y para que sirven los Selectores CSS?</h3>
-        <p>
-            De acuerdo con la tabla elegí el tema de selectores CSS. ¿Qué son y para que sriven?
-            Definen principalmente sobre qué elementos se utilizan un conjunto de reglas CSS como, por ejemplo.
-            Sintaxis: elthame
-            Ejemplo: input, se aplica a cualquier elemento <input>
-            Selectores de clase:
-            En todos los elementos se tiene un atributo de class especificado.
-            Sintaxis: .classname
-            Ejemplo: .index se selecciona cualquier elemento que tenga esta clase, “index”
-
-
-        </p>
-
-        <img src="img/sintaxis-avanzada-css.png" alt="Etiquetas de como utilizar los selectores CSS">
-    </section>
-
-    <section id="Selectores CSS">
-        <h2>Tipos de selectores</h2>
-
-        <h3>¿Como se utilizan los selectores CSS?</h3>
-        <p>
-            Selector de ID:
-            Podemos seleccionar un elemento lo cual el valor de su atributo id. Solo puede haber un elemento
-            determinado dentro de un documento.
-            Sintexis: #idname
-            Ejemeplo: #toc, se utiliza para cualquier elemento que tenga el ID “toc”
-            Selector universal:
-            Se selecciona todos los elementos. Opcionalmente esta restringido a un espacio de nombre específico o en
-            los espacios de nombres.
-            Sintexis: *ns l * * l *¨
-            Ejemplo: * se aplica a todos los elementos del documento.
-
-
-
-        </p>
-
-
-        <p>
-            Otros selectores y combinadores
-
-            Selector de atributos:
-            Selecciona elementos extremadamente en el valor de un determinado.
-            Sintaxis: [attr] [attr=value] [attr-=value] [attr l =value] [attr^=value]
-            [attr$=value] [attr*=value]
-            Ejemplo: [autoplay] seleccionará todos los elementos que pueden tener un atributo de “autoplay”.
-
-
-
-
-
-            Combinadores:
-            Combinador de hermanos adictivos.
-            Los combinadores + selecciona hermanos adictivos. Esto quiere decir que el segundo elemento sigue
-            directamente al primero y ambos comparten el mismo elemento padre.
-            Sintaxis: A + B
-            Ejemplo: La regla h2 + p se utilizará a todos los elementos
-        <p> que siguen directamente a un elemento
-        <h2> (en-US).
-
-            Combinador general de hermanos.
-            El combinador selecciona hermanos, ¿Qué quiere decir? Que el segundo elemento sigue al primero, ambos
-            comparten el mismo elemento padre.
-            Sintaxis: A ~ B
-            Ejemplo: La regla p ~ span se aplicará a todos los elementos <span> que siguen un elemento <p>
-
+    </aside>
+    <main>
+        <section>
+            <article>
+                <p>
+                    ¿Que son y para que sriven?:
+                    De acuerdo con la tabla elegí el tema de selectores CSS. ¿Qué son y para que sriven? Definen
+                    principalmente sobre qué elementos se utilizan un conjunto de reglas CSS como, por ejemplo.
+                    Sintaxis: elthame Ejemplo: input, se aplica a cualquier elemento
+                    Selectores de clase: En todos los elementos se tiene un atributo de class especificado. Sintaxis:
+                    .classname Ejemplo: .index se selecciona cualquier elemento que tenga esta clase, “index”
                 </p>
+                <p>
+                    Tipos de selectores
+                    ¿Como se utilizan los selectores CSS?
+                    Selector de ID: Podemos seleccionar un elemento lo cual el valor de su atributo id. Solo puede haber
+                    un elemento determinado dentro de un documento. Sintexis: #idname Ejemeplo: #toc, se utiliza para
+                    cualquier elemento que tenga el ID “toc” Selector universal: Se selecciona todos los elementos.
+                    Opcionalmente esta restringido a un espacio de nombre específico o en los espacios de nombres.
+                    Sintexis: *ns l * * l *¨ Ejemplo: * se aplica a todos los elementos del documento.
 
-    </section>
-    <hr>
-    <section id="mockup"></section>
-    <section>
-        <h3>mockup de la pagina</h3>
-        <img src="img/mockup.png" alt="Presentando el mockup">
-    </section>
-    <hr>
-    <a name="Acercade"></a>
-    <section>
-        <h3>Acerca de </h3>
-
-        <h3> Nombre: Santiago Núñez Viasus </h3>
-        <h3> Programa: Tecnología en producción de audio </h3>
-        <h3> Fecha de creación: 09/02/2023</h3>
-        <hr>
-        <p> Mis datos personales: <br>
-            Skype: Jusanvía <br>
-            Celular: 3102256518 <br>
-            Correo electrónico: jusanvia@gmail.com <br>
-    </section>
-
+                    Otros selectores y combinadores Selector de atributos: Selecciona elementos extremadamente en el
+                    valor de un determinado. Sintaxis: [attr] [attr=value] [attr-=value] [attr l =value] [attr^=value]
+                    [attr$=value] [attr*=value] Ejemplo: [autoplay] seleccionará todos los elementos que pueden tener un
+                    atributo de “autoplay”. Combinadores: Combinador de hermanos adictivos. Los combinadores +
+                    selecciona hermanos adictivos. Esto quiere decir que el segundo elemento sigue directamente al
+                    primero y ambos comparten el mismo elemento padre. Sintaxis: A + B Ejemplo: La regla h2 + p se
+                    utilizará a todos los elementos.
+                </p>
+                <p>
+                    Audio-Resumen de los selectores CSS:
+                    https://drive.google.com/file/d/1TD5esBiQvVugYlbW7EPD8n0AIJuqR5Ip/view?usp=share_link
+                </p>
+            </article>
+        </section>
+    </main>
     <footer>
-        <p>Esta pagina web fue desarrollada por Santiago Nuñez Viasus</p>
-        <p>Fecha de actualización 08/03/2023</p>
+        <br>
+        Pie de pagina
+        <br>
+        <br>
+        Nombre: Santiago Nuñez Viasus
+        </br>
+        <br>
+        Programa: Tecnología en producción de audio
+        </br>
+        <br>Fecha de creación: 29/03/2023
+    </footer></br>
     </footer>
-
 </body>
 
 </html>

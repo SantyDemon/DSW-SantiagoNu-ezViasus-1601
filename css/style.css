@@ -1,0 +1,35 @@
+.contenedor {
+
+    display: grid;
+    grid-template-areas:
+        'A A A A'
+        'B B B B'
+        'D D D D'
+        'C C C C'
+        'E E E E';
+}
+
+header {
+    grid-area: A;
+    background-color: #FFF2CC;
+}
+
+nav {
+    grid-area: B;
+    background-color: #A5D7E8;
+}
+
+aside {
+    grid-area: C;
+    background-color: #3795BD;
+}
+
+main {
+    grid-area: D;
+    background-color: #B6EADA;
+}
+
+footer {
+    grid-area: E;
+    background-color: #03C988;
+}
