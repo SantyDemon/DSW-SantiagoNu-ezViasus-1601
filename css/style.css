@@ -16,7 +16,7 @@ header {
 
 nav {
     grid-area: B;
-    background-color: #A5D7E8;
+    background-color: #00d9ff;
 }
 
 aside {
@@ -31,5 +31,5 @@ main {
 
 footer {
     grid-area: E;
-    background-color: #03C988;
+    background-color: #0edb9a;
 }
