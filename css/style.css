@@ -4,32 +4,32 @@
     grid-template-areas:
         'A A A A'
         'B B B B'
-        'D D D D'
         'C C C C'
+        'D D D D'
         'E E E E';
 }
 
 header {
     grid-area: A;
-    background-color: #e7ab73;
+    background-color: #522cbb;
 }
 
 nav {
     grid-area: B;
-    background-color: #00d9ff;
+    background-color: #ebc683;
 }
 
 aside {
     grid-area: C;
-    background-color: #3795BD;
+    background-color: #13005A;
 }
 
 main {
     grid-area: D;
-    background-color: #B6EADA;
+    background-color: #ee975d81;
 }
 
 footer {
     grid-area: E;
-    background-color: #0edb9a;
+    background-color: #ec7e5c7c;
 }
